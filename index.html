@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>京都 CORP | Kurt Axl Cypres</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Symbols">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="sonya7iii.jpg">
+</head>
+<body>
+  <section class="hsec" id="home">
+    <div class="l-cont">
+      <p class="logo">京都 CORP</p>
+    </div>
+    <div class="side-nav">
+      <nav>
+        <ul>
+          <li><a href="#home"><span class="material-icons">home</span></a></li>
+          <li><a href="#about"><span class="material-icons">contacts</span></a></li>
+          <li><a href="#resume"><span class="material-icons">assignment</span></a></li>
+          <li><a href="#certificates"><span class="material-symbols">trophy</span></a></li>
+          <li><a href="#services"><span class="material-symbols">image</span></a></li>
+          <li><a href="#works"><span class="material-icons">camera</span></a></li>
+          <li><a href="#testimonials"><span class="material-icons">rate_review</span></a></li>
+          <li><a href="#contact"><span class="material-icons">send</span></a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="hcont">
+      <h1>Cinematic Photography</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex autem, consectetur voluptatum natus nulla illo nobis magni aliquam eligendi quo fuga, soluta molestiae blanditiis veritatis necessitatibus quidem, ratione odio laboriosam?</p>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus, facere quam aut doloremque quasi error saepe fugit cum quod eius porro, iste illum culpa neque nihil voluptate adipisci necessitatibus eos!</p>
+      <a href="https://www.facebook.com/kyoutokiroo/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+      <a href="https://x.com/Kyouto_Kun" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+      <a href="https://www.instagram.com/kyoutokiro/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://discord.com/users/1145003142770077758" target="_blank"><i class="fa-brands fa-discord"></i></a>
+    </div>
+    <div class="mp">
+      <img src="" class="img">
+      <div class="ti">
+        <h2 class="title">mumei</h2>
+        <h3 class="artist">Nanashi Mumei</h3>
+      </div>
+      <div class="ctrl">
+        <span class="prev" onclick="prevTrack()"><span class="material-symbols">chevron_left</span></span>
+        <span class="p-p" onclick="ppTrack()"><span class="material-symbols">play_arrow</span></span>
+        <span class="next" onclick="nextTrack()"><span class="material-symbols">chevron_right</span></span>
+      </div>
+      <div class="prog">
+        <input type="range" min="1" max="100" value="0" id="bar" onchange="seekTo()">
+        <span class="ct">00:00</span>
+        <span class="dt">00:00</span>
+      </div>
+    </div>
+  </section>
+  <section class="asec" id="about">
+    <div class="cont">
+      <h1>Kurt Axl</h1>
+      <div class="bio">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos consequuntur quo, eos itaque asperiores rem officia consectetur culpa ipsam voluptates odio vel nulla nobis optio? Nesciunt ipsum ea veniam odio!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum excepturi architecto distinctio accusamus iure consequatur molestias iste voluptatibus. Tempora totam in debitis repellat cum molestiae placeat suscipit dolores dolor laborum?</p>
+      </div>
+      <div class="info">
+        <ul>
+          <li class="name"><span class="material-icons">badge</span>Cypres, Kurt Axl</li>
+          <li class="address"><span class="material-icons">location_on</span>Region IV-A, Philippines</li>
+          <li class="email"><span class="material-icons">mail</span>cypreskurtaxl@gmail.com</li>
+          <li class="occupation"><span class="material-icons">work</span>Freelancer and Commission-Based</li>
+        </ul>
+      </div>
+      <div class="skill">
+        <h2>Skills and Abilities</h2>
+        <div class="s-cont">
+          <div class="skills">
+            <span class="material-icons" id="shutter">camera</span><h3>Photography</h3>          
+          </div>
+          <div class="skills">
+            <span class="material-symbols" id="pen">stylus_pen</span><h3>Digital Art</h3>
+          </div>
+          <div class="skills">
+            <span class="material-icons" id="code">code</span><h3>Programming</h3>
+          </div>
+          <div class="skills">
+            <span class="material-symbols" id="orb">orbit</span><h3>Physics</h3>
+          </div>
+        </div>
+      </div>    
+    </div>
+    <button id="btn">Switch BG</button>
+  </section>
+  <section class="rsec" id="resume">
+    <h2>Education</h2>
+    <div class="r-cont">
+      <span class="material-symbols">school</span>
+      <div class="tl">
+        <h3>2015 - 2019</h3>
+        <h4>Elementary</h4>
+        <p>Rosary School Inc.</p>
+      </div>
+      <div class="tl">
+        <h3>2019 - 2021</h3>
+        <h4>Elementary</h4>
+        <p>Gawaran Elementary School</p>
+      </div>
+      <div class="tl">
+        <h3>2020 - 2025</h3>
+        <h4>Junior High School</h4>
+        <p>Bacoor National High School - Gawaran Annex</p>
+      </div>
+      <div class="tl">
+        <h3>2025 - 2027</h3>
+        <h4>Senior High School</h4>
+        <p>SHS in San Nicholas III, Bacoor City, Cavite</p>
+      </div>
+    </div>
+  </section>
+  <section class="cesec" id="certificates">
+    <h2>certificates</h2>
+    <div class="img-area">
+      <img src="cf2.png" class="l1">
+      <img src="cf1.png" class="main">
+      <img src="cf3.png" class="l2">
+    </div>
+  </section>
+  <section class="ssec" id="services">
+    <h2>Services Available</h2>
+    <div class="container">
+      <div class="services">
+        <span class="material-icons" id="landscape">landscape</span>
+        <h2>Landscape Photography</h2>
+      </div>
+      <div class="services">
+        <span class="material-icons" id="nature">grass</span>
+        <h2>Nature Photography</h2>
+      </div>
+      <div class="services">
+        <span class="material-symbols" id="portrait">frame_person</span>
+        <h2>Portrait Photography</h2>
+      </div>
+      <div class="services">
+        <span class="material-icons" id="food">local_dining</span>
+        <h2>Food Photography</h2>
+      </div>
+    </div>
+  </section>
+  <section class="wsec" id="works">
+    <h2>Works</h2>
+    <div class="ctnr">
+      <div class="panel active" style="background-image: url(works/lp/lp1.jpg)">
+        <h3>Landscape Photography</h3>
+      </div>
+      <div class="panel" style="background-image: url(works/np/np1.jpg)">
+        <h3>Nature Photography</h3>
+      </div>
+      <div class="panel" style="background-image: url(works/pp/pp1.jpg)">
+        <h3>Portrait Photography</h3>
+      </div>
+      <div class="panel" style="background-image: url(works/fp/fp1.jpg)">
+        <h3>Food Photography</h3>
+      </div>
+    </div>
+  </section>
+  <section class="tsec" id="testimonials">
+    <h2>testimonials</h2>
+    <div class="testimonial-card">
+                <div class="quote-icon">"</div>
+                <p class="quote-text">
+                    "The way you captured the raw emotion of our wedding day was breathtaking. Every photo tells a complete story—the timing, the light, everything was absolutely perfect."
+                </p>
+                <div class="client-info">
+                    <strong>Sarah & Tom K.</strong>
+                    <span>Wedding Photography Client</span>
+                </div>
+            </div>
+
+            <!-- Testimonial 2: Portrait/Personality -->
+            <div class="testimonial-card">
+                <div class="quote-icon">"</div>
+                <p class="quote-text">
+                    "I usually hate having my picture taken, but you made the portrait session feel so relaxed and fun. The headshots look professional yet truly reflect my personality. Highly recommend!"
+                </p>
+                <div class="client-info">
+                    <strong>Alex R.</strong>
+                    <span>Professional Portrait Session</span>
+                </div>
+            </div>
+
+            <!-- Testimonial 3: Artistic/Technical Skill -->
+            <div class="testimonial-card">
+                <div class="quote-icon">"</div>
+                <p class="quote-text">
+                    "Your fine art prints are stunning. The clarity, composition, and deep tones in the landscape series are unparalleled. True mastery of light and shadow captured in every piece."
+                </p>
+                <div class="client-info">
+                    <strong>Jordan M.</strong>
+                    <span>Art Collector & Buyer</span>
+                </div>
+            </div>
+  </section>
+  <section class="csec" id="contact">
+    <h2>contact us!</h2>
+    <p class="subtitle">We're here to help. Please fill out the form below to send us a message.</p>
+    <div class="ls">
+      <form id="contactForm">
+            <!-- First and Last Name -->
+            <div class="input-row">
+                <div class="form-group">
+                    <label for="firstName">First Name</label>
+                    <input type="text" id="firstName" name="firstName" placeholder="John" required>
+                </div>
+                <div class="form-group">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" id="lastName" name="lastName" placeholder="Doe" required>
+                </div>
+            </div>
+
+            <!-- Email -->
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="john.doe@example.com" required>
+            </div>
+
+            <!-- Contact Number -->
+            <div class="form-group">
+                <label for="contactNumber">Contact Number (Optional)</label>
+                <input type="tel" id="contactNumber" name="contactNumber" placeholder="+1 (555) 123-4567">
+            </div>
+
+            <!-- Message Area -->
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Type your message here..." required></textarea>
+            </div>
+
+            <!-- Send Message Button -->
+            <div class="form-group">
+                <button type="submit" class="submit-button">Send Message</button>
+            </div>
+        </form>
+      </div>
+      <a href="https://www.facebook.com/kyoutokiroo/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+      <a href="https://x.com/Kyouto_Kun" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+      <a href="https://www.instagram.com/kyoutokiro/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://discord.com/users/1145003142770077758" target="_blank"><i class="fa-brands fa-discord"></i></a> 
+  </section>
+  <script src="app.js"></script>
+</body>
+</html>

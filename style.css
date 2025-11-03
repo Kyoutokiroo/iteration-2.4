@@ -119,7 +119,8 @@ body{
 }
 .mp img{
   margin-top: 5px;
-  width: 12%;
+  width: 80px;
+  height: 80px;
   margin-right: 15px;
   display: inline;
   left: 0;

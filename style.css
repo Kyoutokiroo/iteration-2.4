@@ -7,8 +7,7 @@
 }
 body{
   min-height: 100vh;
-  width: 100vw;
-  scroll-behavior: smooth;
+  width: 99.3vw;
 }
 .hsec{
   min-height: 100vh;
@@ -135,15 +134,15 @@ body{
   font-size: .95rem;
 }
 .mp .ctrl{
-  width: 46%;
+  width: 53%;
   height: 50%;
-  position: relative;
+  position: absolute;
   cursor: pointer;
   user-select: none;
   color: #fff;
   text-align: center;
-  left: 6px;
-  top: 10px;
+  justify-content: center;
+  right: 25px;
 }
 .mp .ctrl .material-symbols{
   margin: 0 15px;
@@ -447,7 +446,7 @@ ul{
   cursor: default;
 }
 .wsec{
-  height: 105vh;
+  height: 107vh;
   background: #111;
   color: #fff;
   padding: 50px;
@@ -644,46 +643,46 @@ textarea {
   font-size: 1.1rem;
   font-weight: 700;
   border: none;
-            border-radius: 8px;
-            cursor: pointer;
-            transition: background-color 0.3s, transform 0.1s;
-            letter-spacing: 0.5px;
-        }
-        .submit-button:hover {
-            background-color: var(--color-primary-dark);
-            transform: translateY(-1px);
-        }
-        .submit-button:active {
-            transform: translateY(0);
-        }
-        #messageBox {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.75);
-            display: none; 
-            align-items: center;
-            justify-content: center;
-            z-index: 1000;
-            opacity: 0;
-            transition: opacity 0.3s ease-in-out;
-        }
-        #messageBox.show {
-            display: flex;
-            opacity: 1;
-        }
-        .modal-content {
-            background-color: var(--color-card-dark);
-            padding: 30px;
-            border-radius: var(--border-radius);
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-            max-width: 400px;
-            width: 90%;
-            text-align: center;
-            transform: scale(0.9);
-            transition: transform 0.3s ease-in-out;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.1s;
+  letter-spacing: 0.5px;
+}
+.submit-button:hover {
+  background-color: var(--color-primary-dark);
+  transform: translateY(-1px);
+}
+.submit-button:active {
+  transform: translateY(0);
+}
+#messageBox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: none; 
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+#messageBox.show {
+  display: flex;
+  opacity: 1;
+}
+.modal-content {
+  background-color: var(--color-card-dark);
+  padding: 30px;
+  border-radius: var(--border-radius);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  max-width: 400px;
+  width: 90%;
+  text-align: center;
+  transform: scale(0.9);
+  transition: transform 0.3s ease-in-out;
 }
 #messageBox.show .modal-content {
   transform: scale(1);
